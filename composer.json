@@ -1,0 +1,14 @@
+{
+    "name": "bagusrin/text-processing",
+    "description": "Simple text processing library for Bahasa Indonesia",
+    "license": "GPL-3.0-only",
+    "type": "Library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
