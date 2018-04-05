@@ -10,11 +10,11 @@ class Stopwords{
 
 			$file = __DIR__."/../File/stopwordsID.txt";
 
-		    if (!is_readable($file)) {
-            	throw new \Exception('Corpus is missing. It seems that your file is corrupted.');
-        	}
+		    	if (!is_readable($file)) {
+            			throw new \Exception('Corpus is missing. It seems that your file is corrupted.');
+        		}
 
-        	$stopwords = explode("\n", file_get_contents($file));
+        		$stopwords = explode("\n", file_get_contents($file));
 
 			$strarray = [];
 			$strarray = explode(" ", strtolower($text));
@@ -26,9 +26,9 @@ class Stopwords{
 
 		} catch (\Exception $e) {  
             
-            return false;
+            		return false;
         
-        } 
+        	} 
 	}
 	
 }
