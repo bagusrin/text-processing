@@ -1,6 +1,6 @@
 <?php
 
-namespace Bagusrin\TextProcessing;
+namespace Bagusrin\TextProcessing\Util;
 
 class Stopwords{
 
