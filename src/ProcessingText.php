@@ -2,7 +2,8 @@
 
 namespace Bagusrin\TextProcessing;
 
-use Bagusrin\TextProcessing\Stemmer;
+use Bagusrin\TextProcessing\Util\Stemmer;
+use Bagusrin\TextProcessing\Util\Stopwords;
 
 class ProcessingText{
 
