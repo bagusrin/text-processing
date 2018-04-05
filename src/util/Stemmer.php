@@ -1,8 +1,6 @@
 <?php
 
-namespace Bagusrin\TextProcessing;
-
-use Bagusrin\TextProcessing\Stopwords;
+namespace Bagusrin\TextProcessing\Util;
 
 class Stemmer{
 	
