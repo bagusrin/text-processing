@@ -5,7 +5,7 @@ namespace Bagusrin\TextProcessing;
 use Bagusrin\TextProcessing\Util\Stemmer;
 use Bagusrin\TextProcessing\Util\Stopwords;
 
-class ProcessingText{
+class Processing{
 
 	public function processing(){
 		return "test";
