@@ -19,10 +19,10 @@ class Processing{
 		return $res;
 	}
 	
-	public function stopword(){
+	public function stopword(String $text){
 
 		$stopwords = new Stopwords();
-		$res = $stopwords->removeWords();
+		$res = $stopwords->removeWords($text);
 
 		return $res;
 	}

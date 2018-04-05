@@ -5,6 +5,6 @@ namespace Bagusrin\TextProcessing\Util;
 class Stemmer{
 	
 	public function stemming(){
-		return "stemming";
+		return __DIR__;
 	}
 }
